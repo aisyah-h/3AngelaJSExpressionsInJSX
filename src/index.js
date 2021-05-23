@@ -7,7 +7,9 @@ const num = 8;
 
 ReactDOM.render(
   <div>
-    {/*3 ways to use variables in the html tag:*/}
+    {/*3 ways to use variables in the html tag:
+    all 3 give the same output
+    */}
     {/*Method 1:*/}
     <h1>Hello {fName + " " + lName}!</h1>
     <p>Your lucky number is: {Math.floor(Math.random() * 10)}.</p>
